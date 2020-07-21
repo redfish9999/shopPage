@@ -25,3 +25,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 # shopping
 # shopPage
 # shopPage
+"# shopPage2"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/redfish9999/shopPage2.git git push -u origin master
+"# shopPage2" 
