@@ -30,16 +30,13 @@ export default {
         time(val) {
             if( val === 0 ){
                 this.borderStyle = 'solid 3px Gray'
-                console.log(val,"Gray")
                 this.$emit('timeUp', "停售")
             }
             else if( 0 < val && val < 60 ) {
                 this.borderStyle = 'solid 3px Orange'
-                console.log(val,"Orange")
             }
             else if( val >= 60 ) {
                 this.borderStyle = 'solid 3px Green'
-                console.log(val,"Green")
             }
         }
     },
